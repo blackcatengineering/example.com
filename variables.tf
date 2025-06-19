@@ -42,5 +42,5 @@ variable "harness_delegate_token" {
 
 variable "github_url" {
   type = string
-  default = https://github.com/orgs/blackcatengineering
+  default = "https://github.com/orgs/blackcatengineering"
 }
