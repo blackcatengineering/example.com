@@ -1,5 +1,5 @@
 module "builder-infra" {
-  source                 = "https://github.com/orgs/blackcatengineering/tf-mod-builder_infra"
+  source                 = "git@github.com:blackcatengineering/tf-mod-builder_infra"
   domain                 = "${var.domain}"
   github_url             = ${var.github_url}
   enable_istio           = true
