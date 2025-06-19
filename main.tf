@@ -1,7 +1,6 @@
 module "builder-infra" {
   source                 = "git@github.com:blackcatengineering/tf-mod-builder_infra"
   domain                 = "${var.domain}"
-  github_url             = ${var.github_url}
   enable_istio           = true
   enable_jenkins         = true
   enable_ip_masq         = true
